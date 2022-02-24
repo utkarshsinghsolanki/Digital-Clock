@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock In Js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <main>
+            <h1>Digital Clock In Js</h1>
+            <div id="Time">
+                <b>Time:-&nbsp&nbsp</b><p id="hour">00</p>:<p id="minitue">00</p>:<p id="sec">0</p>
+            </div>
+            <br><hr><br>
+            <div class="stop">
+                <h1>Stopwatch</h1>
+                <div id="Stopwatch">
+                    <b>Stopwatch:-&nbsp&nbsp</b><p id="stopHour">00</p>:<p id="stopMinitue">00</p>:<p id="stopSec">0</p>
+                </div>
+                <br>
+                <button class="button" id="startStop">Start Stopwatch</button>
+                <button class="button" id="stopStop">Stop Stopwatch</button>
+                <button class="button" id="resetStop">Reset Stopwatch</button>
+            </div>
+            <br><hr><br>
+            <div class="alarm">
+                <h1>Timmer</h1>
+                <div id="Stopwatch">
+                    <b>Timer:-&nbsp&nbsp</b><p id="alHour">00</p>:<p id="alMinitue">00</p>:<p id="alSec">0</p>
+                </div>
+                <button class="button" id="setAlarm">Set Timmer</button>
+                <div class="alarmScreen">
+                    <form>
+                        <h1>Set Alarm</h1>
+                        <div class="form">
+                            <input type="number" class="timmer-time" id="setalH" placeholder="Hours">
+                            <input type="number" class="timmer-time" id="setalM" placeholder="Minitues">
+                            <input type="number" class="timmer-time" id="setalS" placeholder="Seconds">
+                        </div>
+                        <div class="albtn">
+                            <input class="button" type="button" id="cancelAlarm" value="Cancel">
+                            <input class="button" type="button" id="activateAlarm" value="Activate">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+</body>
+<script src="script.js"></script>
+</html>
